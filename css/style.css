@@ -646,7 +646,8 @@ body {
     @media (max-width: 75em) {
       .popup__img {
         flex: 2 1 0;
-        display: block; } }
+        display: block;
+        max-width: 50%; } }
     @media (max-width: 37.5em) {
       .popup__img:nth-of-type(1) {
         display: none;
