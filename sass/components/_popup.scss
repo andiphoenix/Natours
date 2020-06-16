@@ -93,13 +93,13 @@
         display: block;
         width: 100%;
         
-       // @media (min-resolution: 192dpi) and (max-width: 37.5em),
-       //    (-webkit-min-device-pixel-ratio: 2) and (max-width: 37.5em) {
-
-       //     }
+        @media (min-resolution: 192dpi) and (max-width: 75em),
+          (-webkit-min-device-pixel-ratio: 2) and (max-width: 75em) {
+                max-height: 400px;
+            }
 
             @include respond(tab-land) {
-                flex: 1 2 0;
+                flex: 1 1 0;
                 display: block;
             }
             
