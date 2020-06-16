@@ -108,12 +108,14 @@
                 @include respond(phone) {
                     display: none;
                     max-height: 200px;
+
                     
                 }
             }
             &:nth-of-type(2) { 
                 @include respond(phone) {
                     max-height: 200px;
+                    max-width: 100%;
                 }
             }
 

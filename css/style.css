@@ -654,7 +654,8 @@ body {
         max-height: 200px; } }
     @media (max-width: 37.5em) {
       .popup__img:nth-of-type(2) {
-        max-height: 200px; } }
+        max-height: 200px;
+        max-width: 100%; } }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
