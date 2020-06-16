@@ -639,8 +639,7 @@ body {
     width: 100%; }
     @media (max-width: 75em) {
       .popup__img {
-        flex: 1 1 0;
-        max-height: 50vh; } }
+        flex: 1 0 0; } }
     @media (max-width: 37.5em) {
       .popup__img:nth-of-type(1) {
         display: none; } }
