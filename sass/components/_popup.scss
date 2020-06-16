@@ -95,7 +95,7 @@
         
         @media (min-resolution: 192dpi) and (max-width: 75em),
           (-webkit-min-device-pixel-ratio: 2) and (max-width: 75em) {
-                max-height: 300px;
+                max-height: 250px;
             }
 
             @include respond(tab-land) {
