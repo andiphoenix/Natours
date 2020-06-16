@@ -642,7 +642,7 @@ body {
     width: 100%; }
     @media (min-resolution: 192dpi) and (max-width: 75em), (-webkit-min-device-pixel-ratio: 2) and (max-width: 75em) {
       .popup__img {
-        max-height: 200px; } }
+        max-height: 300px; } }
     @media (max-width: 75em) {
       .popup__img {
         flex: 2 1 0;
