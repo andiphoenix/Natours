@@ -102,6 +102,13 @@
                     display: none;
                 }
             }
+            &:nth-of-type(2) { 
+                @include respond(phone) {
+                    max-height: 50vh;
+                }
+            }
+
+
     }
     &__text {
         font-size: 1.4rem;
