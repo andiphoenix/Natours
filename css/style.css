@@ -648,7 +648,7 @@ body {
         display: none; } }
     @media (max-width: 37.5em) {
       .popup__img:nth-of-type(2) {
-        max-height: 130px; } }
+        max-height: 160px; } }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
