@@ -110,7 +110,7 @@
             }
             &:nth-of-type(2) { 
                 @include respond(phone) {
-                    max-height: 160px;
+                    max-height: 180px;
                 }
             }
 
@@ -132,5 +132,10 @@
         -ms-hyphens: auto;
         -webkit-hyphens: auto;
         hyphens: auto;
+
+        @include respond(phone) {
+            margin-bottom: 2rem;
+           
+        }
     }
 }
