@@ -634,6 +634,9 @@ body {
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem; }
+    @media (max-width: 37.5em) {
+      .popup__right {
+        padding: 1rem 2rem; } }
   .popup__img {
     display: block;
     width: 100%; }
@@ -645,7 +648,7 @@ body {
         display: none; } }
     @media (max-width: 37.5em) {
       .popup__img:nth-of-type(2) {
-        max-height: 150px; } }
+        max-height: 130px; } }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
